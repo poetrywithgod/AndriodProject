@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Bootcamp</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Images/logo.png" alt="Logo" height="30px">
+            </div>
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Discover Android</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Latest features</a></li>
+                        <li><a href="#">AI on Android</a></li>
+                        <li><a href="#">Android 14</a></li>
+                        <li><a href="#">Safety</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Google messages</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Switch & Transfer</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Why Android</a></li>
+                        <li><a href="#">How to switch</a></li>
+                        <li><a href="#">Transfer your data</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Explore Devices</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Phones</a></li>
+                        <li><a href="#">Find your phone</a></li>
+                        <li><a href="#">Tablets</a></li>
+                        <li><a href="#">Connected devices</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-right">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search..." id="searchInput">
+                    <i class='bx bx-search' alt="Search Icon" class="search-icon" id="searchIcon"></i>
+                </div>
+                <button class="shop-phones-button">Shop Phones <i class='bx bx-right-arrow-alt' style='color:#7bb20c' ></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="video-section">
+            <video id="videoPlayer" class="video-player" src="clips/Android_BeTo_Desktop.webm" autoplay muted loop></video>
+            <button id="playPauseButton" class="play-pause-button">
+                <i class='bx bx-play-circle'  alt="Play Icon" id="playIcon" class="icon"></i>
+                <i class='bx bx-pause-circle' alt="Pause Icon" id="pauseIcon" class="icon" style="display:none;"></i>
+            </button>
+        </section>
+        
+        <section class="video-section">
+            <video id="videoPlayer" class="video-player" src="clips/Android_BeTo_Desktop.webm" autoplay muted loop></video>
+            <button id="playPauseButton" class="play-pause-button">
+                <i class='bx bx-play-circle'  alt="Play Icon" id="playIcon" class="icon"></i>
+                <i class='bx bx-pause-circle' alt="Pause Icon" id="pauseIcon" class="icon" style="display:none;"></i>
+            </button>
+        </section>
+        <section class="video-section">
+            <video id="videoPlayer" class="video-player" src="clips/Android_BeTo_Desktop.webm" autoplay muted loop></video>
+            <button id="playPauseButton" class="play-pause-button">
+                <i class='bx bx-play-circle'  alt="Play Icon" id="playIcon" class="icon"></i>
+                <i class='bx bx-pause-circle' alt="Pause Icon" id="pauseIcon" class="icon" style="display:none;"></i>
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Android. All rights reserved.</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
